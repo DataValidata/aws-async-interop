@@ -1,0 +1,20 @@
+{
+    "name": "datavalidata/aws-async-interop",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ciaran Kelly",
+            "email": "ciaran@datavalidata.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataValidata\\AWSAsyncInterop\\" : "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
+        "aws/aws-sdk-php": "^3",
+        "async-interop/event-loop": "^0.5"
+    }
+}
