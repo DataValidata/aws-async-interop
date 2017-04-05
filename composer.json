@@ -16,6 +16,6 @@
     "require": {
         "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
         "aws/aws-sdk-php": "^3",
-        "async-interop/event-loop": "^0.5"
+        "amphp/amp": "^2@dev"
     }
 }

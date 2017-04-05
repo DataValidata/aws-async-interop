@@ -4,7 +4,7 @@
 namespace DataValidata\AWSAsyncInterop;
 
 
-use AsyncInterop\Loop;
+use Amp\Loop;
 use Aws\Sdk as AwsSdk;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
